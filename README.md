@@ -37,9 +37,18 @@ brew install --cask docker
 
 [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)をvscodeにインストール。
 
+## コードのクローン
+
+このリポジトリのソースをクローンしてから、vscodeで開く。
+
+```
+git clone https://github.com/tokiukaze/docker-exa-pj
+cd docker-exa-pj
+code .
+```
+
 ## コンテナの展開
 
-このリポジトリのソースをクローンして、vscodeで開く。  
 右下の表示または、「command」+「p」から「Reopen in Container」を選択。
 
 ![image](/docs/image/README.md%20—%20vscode-remote-con%202022-04-14%2015-04-46.png)
